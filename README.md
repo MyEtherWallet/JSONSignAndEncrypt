@@ -1,6 +1,6 @@
 # JSON sigining and encryption
 
-Nodejs based tool to generate vanity ethereum addresses
+library to make signing and encrypting json object easier
 
 # Features!
 
