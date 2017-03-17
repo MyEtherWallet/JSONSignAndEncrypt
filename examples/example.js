@@ -1,21 +1,3 @@
-# JSON sigining and encryption
-
-Nodejs based tool to generate vanity ethereum addresses
-
-# Features!
-
-  - Generate deterministic string to verify based on json and sign the string
-  - No more signing failures due to JSON object not maintaining the same order
-  - ECIES encryption/decryption on JSON
-
-### Installation
-```sh
-$ npm install json-sign-and-encrypt
-```
-### Examples
-
-Generate ethereum address:
-```
 var signUtils = require("../index.js");
 var crypto = require("crypto");
 var objectToEncrypt = {
@@ -58,10 +40,3 @@ signUtils.signAndEncrypt(objectToEncrypt, clientPrivKey, serverPubKey).then(func
     });
 
 });
-```
-
-License
-----
-
-MIT
-

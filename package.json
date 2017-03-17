@@ -1,0 +1,32 @@
+{
+    "name": "json-sign-and-encrypt",
+    "version": "1.0.0",
+    "description": "simple json object signer",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha tests/*.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MyEtherWallet/JSONSignAndEncrypt.git"
+    },
+    "keywords": [
+        "json",
+        "sign",
+        "encrypt"
+    ],
+    "author": "kvhnuke",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MyEtherWallet/JSONSignAndEncrypt/issues"
+    },
+    "homepage": "https://github.com/MyEtherWallet/JSONSignAndEncrypt#readme",
+    "dependencies": {
+        "crypto": "0.0.3",
+        "eccrypto": "^1.0.3"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "mocha": "^3.2.0"
+    }
+}
